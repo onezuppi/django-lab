@@ -22,8 +22,8 @@ from django.urls import path, include, re_path
 from django.conf.urls.static import static
 
 urlpatterns = [
-    path("admin/", admin.site.urls),
     path("", include("moviesapp.urls")),
+    path("admin/", admin.site.urls),
     path("blog/", include("blog.urls")),
     path(r"empl/", include('EmplApp.urls')),
     path(r"employee/", include('employee.urls')),
