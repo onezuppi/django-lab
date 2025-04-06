@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     'moviesapp',
     'products',
     'blog',
-    'EmplApp'
+    'EmplApp',
+    'employee'
 ]
 
 MIDDLEWARE = [

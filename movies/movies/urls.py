@@ -25,7 +25,8 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("", include("moviesapp.urls")),
     path("blog/", include("blog.urls")),
-    path(r"empl/", include('EmplApp.urls'))
+    path(r"empl/", include('EmplApp.urls')),
+    path(r"employee/", include('employee.urls')),
 ]
 
 if settings.DEBUG:
